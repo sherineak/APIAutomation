@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/SherineAntony/IdeaProjects/APIAutomation"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.641">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testCreateBookingNeg"
+                time="1.168"
+                classname="org.example.Tests.CrudOp.testCreateBookingPost">
+            </testcase>
+            <testcase
+                name="testCreateBooking"
+                time="4.473"
+                classname="org.example.Tests.CrudOp.testCreateBookingPost">
+            </testcase>
+</testsuite>
