@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.641">
+           time="4.529">
     <properties></properties>
 
 
 
             <testcase
-                name="testCreateBookingNeg"
-                time="1.168"
+                name="testCreateBooking"
+                time="3.367"
                 classname="org.example.Tests.CrudOp.testCreateBookingPost">
             </testcase>
             <testcase
-                name="testCreateBooking"
-                time="4.473"
+                name="testCreateBookingNeg"
+                time="1.162"
                 classname="org.example.Tests.CrudOp.testCreateBookingPost">
             </testcase>
 </testsuite>

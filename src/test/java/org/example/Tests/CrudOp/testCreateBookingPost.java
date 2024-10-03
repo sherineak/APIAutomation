@@ -23,7 +23,9 @@ public class testCreateBookingPost extends BaseTest {
 
             requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
 
-            response = requestSpecification.body(payloadManager.createPayloadBookingAsStringPost()).when().post();
+            response = RestAssured
+                    .given(requestSpecification)
+                    .when().body(payloadManager.createPayloadBookingAsStringPost()).post();
 
             validatableResponse = response.then().log().all();
             //Validatable assertion
@@ -49,9 +51,9 @@ public class testCreateBookingPost extends BaseTest {
     @Description("TC#2: Verify  the booking Without payload")
     public void testCreateBookingNeg(){
 
-            requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
-
-            response = requestSpecification.body(payloadManager.createInvalidPayloadBookingAsStringPost()).when().post();
+        response = RestAssured
+                .given(requestSpecification)
+                .when().body(payloadManager.createInvalidPayloadBookingAsStringPost()).post();
 
             validatableResponse = response.then().log().all();
             //Validatable assertion

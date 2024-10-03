@@ -1,13 +1,13 @@
 package org.example.pojos;
 
 public class TokenResponse {
-    private String tokenResponse;
+    private String token;
 
-    public String getTokenResponse() {
-        return tokenResponse;
+    public String getToken() {
+        return token;
     }
 
-    public void setTokenResponse(String tokenResponse) {
-        this.tokenResponse = tokenResponse;
+    public void setToken(String token) {
+        this.token = token;
     }
 }
