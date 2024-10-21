@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/SherineAntony/IdeaProjects/APIAutomation"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.069">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testMethodM3"
+                time="0.001"
+                classname="org.example.Tests.misc.parallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethodM6"
+                time="0.001"
+                classname="org.example.Tests.misc.parallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethodM2"
+                time="0.002"
+                classname="org.example.Tests.misc.parallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethodM5"
+                time="0.002"
+                classname="org.example.Tests.misc.parallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethodM1"
+                time="0.061"
+                classname="org.example.Tests.misc.parallel.MainClass">
+            </testcase>
+            <testcase
+                name="testMethodM4"
+                time="0.002"
+                classname="org.example.Tests.misc.parallel.MainClass">
+            </testcase>
+</testsuite>

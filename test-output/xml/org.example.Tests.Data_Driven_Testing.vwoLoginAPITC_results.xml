@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/SherineAntony/IdeaProjects/APIAutomation"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.896">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testVWOLogin"
+                time="2.266"
+                classname="org.example.Tests.Data_Driven_Testing.vwoLoginAPITC">
+            </testcase>
+            <testcase
+                name="testVWOLogin"
+                time="0.630"
+                classname="org.example.Tests.Data_Driven_Testing.vwoLoginAPITC">
+            </testcase>
+</testsuite>

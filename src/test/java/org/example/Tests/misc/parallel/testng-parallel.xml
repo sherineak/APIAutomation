@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="2">
+    <test verbose="2" preserve-order="true" name="C:/Users/SherineAntony/IdeaProjects/APIAutomation">
+        <classes>
+            <class name="org.example.Tests.misc.parallel.MainClass">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/SherineAntony/IdeaProjects/APIAutomation2">
+        <classes>
+            <class name="org.example.Tests.misc.parallel.MainClass2">
+            </class>
+        </classes>
+    </test>
+</suite>

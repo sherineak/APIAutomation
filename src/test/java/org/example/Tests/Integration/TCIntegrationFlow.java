@@ -28,6 +28,8 @@ public class TCIntegrationFlow extends BaseTest {
     public void testCreateBooking(ITestContext iTestContext){ // to pass id to other functions
         iTestContext.setAttribute("token",getToken());
 
+
+
         requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
        // Below code is same as testCreateBookingPost expect set Booking Id , which required to validate Get function
         response = RestAssured
@@ -35,7 +37,7 @@ public class TCIntegrationFlow extends BaseTest {
                 .when().body(payloadManager.createPayloadBookingAsStringPost()).post();
 
         validatableResponse = response.then().log().all();
-        //Validatable assertion
+
         validatableResponse.statusCode(200);
         validatableResponse.body("booking.firstname", Matchers.equalTo("Jain"));
 

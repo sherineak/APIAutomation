@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/SherineAntony/IdeaProjects/APIAutomation2"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.020">
+    <properties></properties>
+
+
+
+            <testcase
+                name="afterMethod1"
+                time="0.003"
+                classname="org.example.Tests.misc.parallel.MainClass2">
+            </testcase>
+            <testcase
+                name="testMethodMc4"
+                time="0.004"
+                classname="org.example.Tests.misc.parallel.MainClass2">
+            </testcase>
+            <testcase
+                name="testMethodMc2"
+                time="0.002"
+                classname="org.example.Tests.misc.parallel.MainClass2">
+            </testcase>
+            <testcase
+                name="testMethodMc1"
+                time="0.003"
+                classname="org.example.Tests.misc.parallel.MainClass2">
+            </testcase>
+            <testcase
+                name="testMethodMc3"
+                time="0.002"
+                classname="org.example.Tests.misc.parallel.MainClass2">
+            </testcase>
+            <testcase
+                name="testMethodMc5"
+                time="0.003"
+                classname="org.example.Tests.misc.parallel.MainClass2">
+            </testcase>
+            <testcase
+                name="testMethodMc6"
+                time="0.003"
+                classname="org.example.Tests.misc.parallel.MainClass2">
+            </testcase>
+</testsuite>
